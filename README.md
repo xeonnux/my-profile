@@ -1,5 +1,8 @@
 This is my personal website. After travelling the world and trying out tonnes of new skills and jobs, I decided 5 years ago to get back to what I love the most. This is the site that showcase my journey that started 3 years ago when I decided to consolidate my knowledge and out of the blue do [Le Wagon](https://www.lewagon.org/) bootcamp and build myself a new stable life doing what I love the most.
 
+### Theme Toggler Button
+Thanks to [this](https://javascript.plainenglish.io/how-to-create-light-and-dark-mode-toggle-in-next-js-with-tailwind-61e67518fd2d) tutorial it was quickly settled.
+
 ## Getting Started
 
 This project is based on Vercel latest [NextJs](https://nextjs.org) as of date 25th Dec 2023:
