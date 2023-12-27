@@ -1,6 +1,6 @@
 import React from "react";
 import { getSortedPostsData } from "../../lib/posts";
-import Card from "../../components/Card";
+import BlogCard from "../../components/BlogCard";
 import Link from "next/link";
 
 export async function generateStaticParams() {
@@ -22,10 +22,10 @@ const index = () => {
   return (
     <div className="flex flex-col items-start p-12">
       <h1 className="text-3xl">My journey to become a better developer</h1>
-      <section className="container flex flex-wrap gap-4 max-w-700px">
+      <section className="container flex flex-wrap items-center justify-center gap-4 p-5 max-w-700px">
         {allPosts.map(({ id, date, image, description, title }) => (
           <Link key={id} href={`/blog/${id}`}>
-            <Card
+            <BlogCard
               key={id}
               title={title}
               description={description}
