@@ -20,11 +20,16 @@ const index = () => {
   };
   const allPosts = getPosts();
   return (
-    <div className="flex flex-col items-start p-12">
-      <h1 className="text-3xl">My journey to become a better developer</h1>
-      <section className="container flex flex-wrap items-center justify-center gap-4 p-5 max-w-700px">
+    <div className="flex flex-col items-center p-12 bg-white dark:bg-gray-700">
+      <h1 className="text-3xl text-gray-500 dark:text-white">
+        My journey as a software developer
+      </h1>
+      <p className="text-gray-500 dark:text-white">
+        I write about things I learn and projects I build.
+      </p>
+      <section className="container flex flex-wrap items-center justify-center p-5 max-w-700px">
         {allPosts.map(({ id, date, image, description, title }) => (
-          <Link key={id} href={`/blog/${id}`}>
+          <Link className="max-w-[75%]" key={id} href={`/blog/${id}`}>
             <BlogCard
               key={id}
               title={title}

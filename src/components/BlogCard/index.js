@@ -1,12 +1,12 @@
 import React from "react";
 
 const index = (props) => {
-  const { key, title, description, image, date } = props;
+  const { title, description, image, date } = props;
 
   return (
-    <div key={key} className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+    <div className="flex flex-col items-center bg-white border-gray-200 dark:border-gray-300 border-dashed p-5 border-y-[1.25px] md:flex-row md:max-w-full hover:bg-gray-100 dark:bg-gray-700 dark:hover:bg-gray-600">
       <img
-        className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
+        className="object-cover w-full min-h-64 md:h-full md:w-48"
         src={image}
         alt={`${title}`}
       />
