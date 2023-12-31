@@ -1,5 +1,5 @@
 import Avatar from "./../components/Avatar";
-import photo from "../../public/avatar.jpeg";
+import photo from "../../public/fabrice.png";
 import Container from "./../components/Container";
 
 export default function Home() {
