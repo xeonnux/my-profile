@@ -27,9 +27,9 @@ const index = () => {
       <p className="text-gray-500 dark:text-white">
         I write about things I learn and projects I build.
       </p>
-      <section className="container flex flex-wrap items-center justify-center p-5 max-w-700px">
+      <section className="container flex flex-wrap items-center justify-center p-2 md:p-5 max-w-700px">
         {allPosts.map(({ id, date, image, description, title }) => (
-          <Link className="max-w-[75%]" key={id} href={`/blog/${id}`}>
+          <Link className="max-w-[100%] md:max-w-[75%]" key={id} href={`/blog/${id}`}>
             <BlogCard
               key={id}
               title={title}
