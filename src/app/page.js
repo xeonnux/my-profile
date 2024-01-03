@@ -11,12 +11,12 @@ export default function Home() {
           <h1 className="text-5xl font-bold text-center text-gray-800 dark:text-white">
             Hello World
           </h1>
-          <p className="py-5 text-xl text-center text-gray-800 dark:text-white">
+          <p className="py-5 text-xl text-gray-800 text-start dark:text-white">
             I am a software developer located on the beautiful Island of
             Mauritius. I am passionate about building applications that are
             scalable and easy to maintain.
           </p>
-          <p className="text-xl text-center text-gray-800 dark:text-white">
+          <p className="text-xl text-gray-800 text-start dark:text-white">
             This is my personal website. After travelling the world and trying
             out tonnes of new skills and jobs, I decided in 2018 to get back
             to what I love the most, the IT world. This is the site that showcase my journey

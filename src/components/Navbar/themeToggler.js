@@ -25,7 +25,7 @@ const ThemeToggler = () => {
               className="w-6 h-6"
               fill="none"
               viewBox="0 0 24 24"
-              stroke="currentColor"
+              stroke="#c4c4c4"
             >
               <path
                 strokeLinecap="round"
@@ -41,7 +41,7 @@ const ThemeToggler = () => {
               className="w-6 h-6"
               fill="none"
               viewBox="0 0 24 24"
-              stroke="currentColor"
+              stroke="#c6c6c6"
             >
               <path
                 strokeLinecap="round"
