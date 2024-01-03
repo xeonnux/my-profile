@@ -4,7 +4,7 @@ import Container from "./../components/Container";
 
 export default function Home() {
   return (
-    <div className="w-full min-h-screen dark:bg-gray-900 bg-gray-50">
+    <div className="w-full min-h-[90vh] dark:bg-gray-900 bg-gray-50">
       <div className="flex flex-col items-center justify-center w-full">
         <Container>
           <Avatar image={photo} />
